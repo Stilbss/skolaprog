@@ -1,0 +1,6 @@
+
+Vārds: Toms
+Uzvārds: dasd
+Sporta veids: ww
+Intensitāte: 3
+Laiks: Vakara treniņš

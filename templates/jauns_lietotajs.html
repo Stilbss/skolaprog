@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fitnesa izsekošana</title>
+  </head>
+  <body>
+    <h1>Jauns lietotājs</h1>
+    <form action = "{{url_for('lietotaja_apstrade')}}" method = "POST">
+      <label for = "vards">Vārds:</label>
+      <input type = "text" id = "vards" name = "vards" value = "" required>
+      <br>
+      <label for = "uzvards">Uzvārds:</label>
+      <input type = "text" id = "uzvards" name = "uzvards" value = "" required>
+      <br><br>
+      <input type = "submit" value = "Saglabāt" name = "submit">
+    </form>
+    <div>
+      <br>
+      <a href = "/"><button type = "button">Atpakaļ</button></a>
+    </div>
+  </body>
+</html>
